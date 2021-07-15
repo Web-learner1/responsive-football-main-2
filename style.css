@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+      /* top section styles starts */
+.container{
+    height: 700px;
+    background-color: rgb(47, 47, 202);
+    margin: 0;
+    padding: 0;
+}
+.top-section{
+    display: flex;
+}
+.section-title{
+    margin: 150px;
+}
+.section-title h1{
+    font-size: 50px;
+    color: white;
+}
+.watch-live{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: white;
+}
+.section-image img{
+    width: 60%;
+    margin-left: 200px; 
+    margin-top: 120px;
+}
+
+    /* top section styles ends */
+
+    /* middle section style starts */
+
+.middle-section{
+    margin-top: 80px;
+    margin-left: 140px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-row-gap: 100px;
+}
+.player{
+    width: 300px;
+    height: 500px;
+    box-shadow: 0 0 40px gray;
+    padding: 10px;
+}
+.player-image img{
+    width: 100%;
+}
+.player-description h3{
+    font-size: 28px;
+    font-weight: 900;
+}
+.player-description p{
+    color: gray;
+}
+
+/* middle section style ends */
+
+
+/* bottom section style starts */
+.bottom-section{
+    display: flex;
+}
+.all-highlights{
+    padding-top: 200px;
+    padding-left: 180px;
+}
+.all-highlights h1{
+    font-size: 38px;
+}
+.all-highlights p{
+    color: gray;
+}
+.watch-now{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: white;
+    display: inline-block;
+    margin-top: 24px;
+}
+.fa-arrow-right{
+    margin-left: 15px;
+}
+.empty{
+    width: 400px;
+    height: 400px;
+    padding-left: 790px;
+}
+/* bottom section style ends */
+
+/* copyright section style starts */
+.logo img{
+    width: 30%;
+    padding-left: 500px;
+}
+.social-media{
+    padding-left: 550px;
+}
+.fab{
+    color: gray;
+    font-size: 25px;
+    padding-left: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #D3D3D3;
+}
+/* copyright section style ends */
